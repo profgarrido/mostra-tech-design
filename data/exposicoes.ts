@@ -241,7 +241,7 @@ export const exposicoes: TrabalhoExposto[] = [
     professor: "Mineiro",
     periodo: "",
     curso: "Externo",
-    sala: "Arquibancada entrada + Sala 101",
+    sala: "Arquibancada (entrada)",
     predio: "Brum",
   },
   {
