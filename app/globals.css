@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #FF6002;
+  --color-title: #070606;
+  --color-background: #FBFAE6;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+  background-color: var(--color-background);
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #FF6002; border-radius: 3px; }
+
+*:focus-visible {
+  outline: 2px solid #FF6002;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
