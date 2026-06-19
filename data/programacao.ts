@@ -22,7 +22,7 @@ export const programacao: AtividadeProgramacao[] = [
     titulo: "Bate-papo com a Edenred",
     descricao:
       "Conversa sobre a experiência na parceria com as disciplinas de Projeto em 2026.1.",
-    local: "",
+    local: "Sala M003 - BRUM",
   },
   {
     id: 4,
