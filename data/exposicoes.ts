@@ -7,7 +7,7 @@ export const exposicoes: TrabalhoExposto[] = [
     professor: "Renan Costa Alencar",
     periodo: "2º período",
     curso: "ADS",
-    sala: "3",
+    sala: "003",
     predio: "Brum",
   },
   {
@@ -16,7 +16,7 @@ export const exposicoes: TrabalhoExposto[] = [
     professor: "Daniel Bezerra e Tiago Barros",
     periodo: "2º período",
     curso: "CC",
-    sala: "3",
+    sala: "003",
     predio: "Brum",
   },
   {
@@ -25,7 +25,7 @@ export const exposicoes: TrabalhoExposto[] = [
     professor: "Tarciana Araújo Brito de Andrade",
     periodo: "6º período",
     curso: "Design",
-    sala: "4",
+    sala: "004",
     predio: "Brum",
   },
   {
@@ -34,7 +34,7 @@ export const exposicoes: TrabalhoExposto[] = [
     professor: "Manuela Beatriz Pedrosa Correia",
     periodo: "4º período",
     curso: "Design",
-    sala: "4",
+    sala: "004",
     predio: "Brum",
   },
   {
@@ -43,7 +43,7 @@ export const exposicoes: TrabalhoExposto[] = [
     professor: "Christiano Mascaro, Manuela Correia, Fernanda Regueira",
     periodo: "",
     curso: "Design",
-    sala: "4",
+    sala: "004",
     predio: "Brum",
   },
   {

@@ -69,8 +69,8 @@ export default function SelectFiltro({
       {/* Dropdown */}
       {open && (
         <ul
-          role="listbox"
-          className="absolute z-50 mt-1 w-full bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden"
+            role="listbox"
+            className="absolute z-50 mt-1 w-full bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden max-h-60 overflow-y-auto"
         >
           {/* Placeholder option */}
           <li

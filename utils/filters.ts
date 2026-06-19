@@ -11,7 +11,7 @@ export function filtrarTrabalhos(
     const matchProfessor =
       !filtros.professor ||
       t.professor
-        .split(/,|e /)
+        .split(",")
         .map((p) => p.trim())
         .some((p) => p === filtros.professor);
 
@@ -41,7 +41,7 @@ export function extrairOpcoes(
 export function extrairProfessores(trabalhos: TrabalhoExposto[]): string[] {
   const nomes = trabalhos.flatMap((t) =>
     t.professor
-      .split(/,|e /)
+      .split(",")
       .map((p) => p.trim())
       .filter(Boolean)
   );
